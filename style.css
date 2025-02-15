@@ -1,0 +1,21 @@
+header{
+    background-image: url("no.2.jpg");
+}
+h1{
+    color: chocolate;
+    border-width: medium;
+}
+main{
+    padding: auto;
+}
+footer{
+    background-color:antiquewhite
+}
+section{
+    margin: auto;
+    background-color: azure;
+}
+section{
+    margin: auto;
+}
+
