@@ -1,3 +1,7 @@
+body{
+   background-color: aqua;
+
+}
 header{
     background-image: url("no.2.jpg");
 }
@@ -9,7 +13,8 @@ main{
     padding: auto;
 }
 footer{
-    background-color:antiquewhite
+    background-color: azure;
+    padding: auto;
 }
 section{
     margin: auto;
@@ -18,4 +23,3 @@ section{
 section{
     margin: auto;
 }
-
