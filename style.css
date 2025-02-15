@@ -1,25 +1,36 @@
-body{
-   background-color: aqua;
+body {
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
 
-}
-header{
+header {
     background-image: url("no.2.jpg");
+    background-size: cover;
+    background-position: center;
 }
-h1{
+
+h1 {
     color: chocolate;
-    border-width: medium;
+    border: medium solid black;
+    text-align: center;
 }
-main{
-    padding: auto;
+
+main {
+    padding: 20px;
 }
-footer{
+
+footer {
     background-color: azure;
-    padding: auto;
+    text-align: center;
+    padding: 10px;
 }
-section{
-    margin: auto;
+
+section {
+    margin: 0 auto;
     background-color: azure;
-}
-section{
-    margin: auto;
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
 }
