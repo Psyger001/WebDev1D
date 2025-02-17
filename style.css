@@ -1,50 +1,91 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins',sans-serif;
+}
+
 body {
-    background-image: url('https://4kwallpapers.com/images/wallpapers/playstation-icons-3840x2160-12696.jpg'); 
-    background-size: cover;
-    background-position: center; 
-    background-repeat: no-repeat;
-    margin: 0;
-    font-family: Arial, sans-serif;
+  background-image: url(https://images.unsplash.com/photo-1665652475985-37e285aeff53?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGFyayUyMGJsdWUlMjBncmFkaWVudHxlbnwwfHwwfHx8MA%3D%3D);
+  font-family: system-ui;
+  width: 90%;
+  margin-inline: auto;
 }
-header {
-    text-align: center;
-    padding: 20px;
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
+
+img {
+  max-width: 100%;
+  display: block;
+  aspect-ratio: 3/2;
+  object-fit: contain;
 }
-h1 {
-    color: black;
-    border-width: 2px;
-    border-style: solid;
-    border-color: black;
-    text-align: center;
-    padding: 10px;
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 5rem;
+  background: linear-gradient(to right,#fc72ff,#8f68ff,#487bff,#8f68ff,#fc72ff);
+  background-size: 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-main {
-    padding: 20px;
+
+.box {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 2rem;
+  text-align: center;
 }
-section {
-    margin: 20px auto;
-    width: 80%;
-    padding: 20px;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 10px;
+
+.gif {
+  float: right;
+  margin: 30px;
 }
-footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    color: black;
-    background: rgba(255, 255, 255, 0.8);
-    padding: 10px;
-    font-weight: 200;
-    font-size: 0.8rem;
-    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.2);
+.gif2 {
+  float: left;
+  margin: 30px;
 }
-footer li {
-    padding: 10px;
-    list-style: none;
+.gif3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,50%);
+}
+h1{
+  font-family: 'Poppins',sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  background: linear-gradient(to right,#fc72ff,#8f68ff,#487bff,#8f68ff,#fc72ff);
+  background-size: 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animate-gradient 2.5s linear infinite;
+}
+
+@keyframes animate-gradient {
+  to {
+   background-position: 200%
+ }
+}
+
+.copyright {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 2;
+  font-size: 20px;
+  background: linear-gradient(to right,#fc72ff,#8f68ff,#487bff,#8f68ff,#fc72ff);
+  background-size: 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
