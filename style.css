@@ -20,7 +20,7 @@ body {
 img {
   max-width: 100%;
   display: block;
-  aspect-ratio: 3/2;
+  aspect-ratio: 2/2;
   object-fit: contain;
 }
 
